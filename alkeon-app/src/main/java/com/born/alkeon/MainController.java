@@ -14,5 +14,11 @@ public class MainController {
 		return "Calling from AWS";
 	}
 	
+	@GetMapping("/get")
+	public String get() {
+		return "Calling from AWS-not";
+	}
+	
+	
 
 }
